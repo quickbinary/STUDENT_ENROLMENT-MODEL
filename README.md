@@ -1,4 +1,4 @@
-# STUDENT_ENROLMENT-MODEL
+# STUDENT ENROLMENT MODEL
 A model that can predict students who are likely to enroll in a particular program and which ones may need additional support to graduate.
 
 **Objective**

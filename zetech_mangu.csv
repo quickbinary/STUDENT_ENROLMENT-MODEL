@@ -1,0 +1,51 @@
+Student_ID   Course_Name Grade  ...  Gender              Category Age
+0            1      Calculus     D  ...  Female        Self Sponsored  23
+1            1   Programming     E  ...  Female  Government Sponsored  23
+2            1   Programming     D  ...  Female  Government Sponsored  23
+3            1  Data Science     B  ...    Male        Self Sponsored  23
+4            2      Calculus     D  ...  Female        Self Sponsored  22
+5            2      Calculus     C  ...    Male  Government Sponsored  22
+6            2    Networking     B  ...    Male  Government Sponsored  22
+7            2  Data Science     D  ...    Male        Self Sponsored  22
+8            2      Calculus     B  ...  Female  Government Sponsored  22
+9            2   Programming     C  ...  Female        Self Sponsored  22
+10           3   Programming     D  ...    Male  Government Sponsored  21
+11           3      Calculus     D  ...    Male        Self Sponsored  21
+12           3           IoT     C  ...  Female  Government Sponsored  21
+13           3           IoT     A  ...  Female  Government Sponsored  21
+14           4  Data Science     C  ...    Male  Government Sponsored  21
+15           4    Networking     C  ...    Male        Self Sponsored  21
+16           4      Calculus     B  ...    Male  Government Sponsored  21
+17           4   Programming     A  ...  Female  Government Sponsored  21
+18           4      Calculus     A  ...  Female  Government Sponsored  21
+19           4    Networking     E  ...    Male        Self Sponsored  21
+20           5           IoT     D  ...  Female        Self Sponsored  20
+21           5           IoT     E  ...    Male  Government Sponsored  20
+22           5           IoT     B  ...  Female  Government Sponsored  20
+23           5   Programming     D  ...    Male  Government Sponsored  20
+24           6    Networking     E  ...    Male        Self Sponsored  20
+25           6  Data Science     A  ...  Female        Self Sponsored  20
+26           6    Networking     E  ...  Female        Self Sponsored  20
+27           6   Programming     A  ...    Male        Self Sponsored  20
+28           6           IoT     C  ...    Male  Government Sponsored  20
+29           6    Networking     A  ...  Female  Government Sponsored  20
+30           6      Calculus     C  ...    Male        Self Sponsored  20
+31           6    Networking     A  ...  Female        Self Sponsored  20
+32           7    Networking     C  ...  Female  Government Sponsored  22
+33           7   Programming     A  ...  Female        Self Sponsored  22
+34           7      Calculus     C  ...    Male        Self Sponsored  22
+35           7      Calculus     D  ...    Male  Government Sponsored  22
+36           7   Programming     B  ...  Female        Self Sponsored  22
+37           7  Data Science     A  ...  Female        Self Sponsored  22
+38           8      Calculus     C  ...    Male  Government Sponsored  19
+39           8  Data Science     E  ...    Male        Self Sponsored  19
+40           8   Programming     B  ...    Male        Self Sponsored  19
+41           8    Networking     D  ...    Male  Government Sponsored  19
+42           8    Networking     C  ...    Male  Government Sponsored  19
+43           8      Calculus     B  ...    Male  Government Sponsored  19
+44           8  Data Science     D  ...  Female        Self Sponsored  19
+45           8    Networking     A  ...    Male        Self Sponsored  19
+46           9   Programming     A  ...  Female        Self Sponsored  22
+47           9   Programming     B  ...  Female  Government Sponsored  22
+48           9  Data Science     E  ...    Male  Government Sponsored  22
+49           9    Networking     D  ...    Male        Self Sponsored  22

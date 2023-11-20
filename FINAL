@@ -1,0 +1,47 @@
+# Libraries
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.preprocessing import LabelEncoder
+
+# Load data
+data = pd.read_csv('graduation_dataset.csv')
+# For simplicity, let's assume the data is clean and doesn't require extensive preprocessing.
+
+# Select features and target variable
+features = data[['Scholarship holder', 'Educational special needs', 'Course', 'Gender', 'Previous qualification', 'Tuition fees up to date']]  
+target = data['Target']  
+
+# Encode the target variable if it's a string
+if isinstance(target[0], str):  # Check if the target variable is categorical
+    le = LabelEncoder()
+    target_encoded = le.fit_transform(target)
+    target = target_encoded
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
+
+# Train a Random Forest Classifier
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+print(f'Accuracy: {accuracy:.2f}')
+
+# Display classification report for more detailed evaluation
+print(classification_report(y_test, y_pred), end='\n')
+
+# Code to check if there are categorical values
+print(data['Target'].unique())
+from sklearn.tree import plot_tree
+import matplotlib.pyplot as plt
+
+# Visualize the first decision tree in the forest
+plt.figure(figsize=(15, 10))
+plot_tree(model.estimators_[0], feature_names=features.columns, class_names=data['Target'].unique(), filled=True)
+plt.show()

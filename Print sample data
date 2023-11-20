@@ -1,0 +1,9 @@
+import pandas as pd
+
+data = pd.read_csv('zetech_mangu.csv')
+
+# Print column names
+print(data.columns)
+
+# Print a sample of the dataset
+print(data.head())
